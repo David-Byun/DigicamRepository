@@ -1,0 +1,12 @@
+[2023-04-26 09:33:55:205351][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-04-26 09:33:55:205361][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 45 mappings in 'requestMappingHandlerMapping'
+[2023-04-26 09:33:55:205364][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-04-26 09:33:55:205366][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-04-26 09:34:29:1566][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-04-26 09:34:29:1632][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 45 mappings in 'requestMappingHandlerMapping'
+[2023-04-26 09:34:29:1645][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-04-26 09:34:29:1651][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-04-26 09:35:00:1708][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-04-26 09:35:00:1773][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 45 mappings in 'requestMappingHandlerMapping'
+[2023-04-26 09:35:00:1785][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-04-26 09:35:00:1792][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice

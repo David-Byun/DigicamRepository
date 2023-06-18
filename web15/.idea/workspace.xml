@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="044e2bbd-224b-4925-a79e-7a976ac6286d" name="Changes" comment="0510 수업" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1682640618" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OwuuibbJtt2igWS1PAOGDTqjkS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/david/Digicam_Spring(0421)/web15",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "f2dd87ceab4b20432d10b6fc739b1029",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/views" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/kbstar/util" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/views/item" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/views/cust" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/views" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/kbstar/mapper" />
+      <recent name="$PROJECT_DIR$/src/main/resources/mybatis" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/kbstar/service" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/kbstar" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kbstar.weather" />
+      <recent name="com.kbstar.item" />
+      <recent name="com.kbstar.markerdesc" />
+      <recent name="com.kbstar.marker" />
+      <recent name="com.kbstar.cart" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Web15Application">
+    <configuration name="CalanderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.weather" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.weather.CalanderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalanderTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.weather" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.weather.CalanderTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectOneTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.cart" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.cart.SelectOneTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.weather" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.weather.WeatherTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.weather" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.weather.WeatherTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Web11Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web11" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web11Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Web15Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web12" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web15Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WeatherTest.contextLoads" />
+        <item itemvalue="JUnit.WeatherTest" />
+        <item itemvalue="JUnit.CalanderTest.contextLoads" />
+        <item itemvalue="JUnit.CalanderTest" />
+        <item itemvalue="JUnit.SelectOneTest.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="044e2bbd-224b-4925-a79e-7a976ac6286d" name="Changes" comment="" />
+      <created>1682484191916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682484191916</updated>
+      <workItem from="1682484193261" duration="8263000" />
+      <workItem from="1682492535397" duration="86000" />
+      <workItem from="1682495080277" duration="1520000" />
+      <workItem from="1682554311870" duration="182000" />
+      <workItem from="1682555708058" duration="7000" />
+      <workItem from="1682556026153" duration="2510000" />
+      <workItem from="1682558554445" duration="15256000" />
+      <workItem from="1682640614312" duration="1511000" />
+      <workItem from="1682642140515" duration="18164000" />
+      <workItem from="1682984425534" duration="1380000" />
+      <workItem from="1682985847321" duration="22872000" />
+      <workItem from="1683015187353" duration="1624000" />
+      <workItem from="1683016987094" duration="729000" />
+      <workItem from="1683027550785" duration="848000" />
+      <workItem from="1683072575502" duration="1020000" />
+      <workItem from="1683162539657" duration="539000" />
+      <workItem from="1683419268842" duration="121000" />
+      <workItem from="1683503204259" duration="17273000" />
+      <workItem from="1683529085611" duration="3976000" />
+      <workItem from="1683534530901" duration="1300000" />
+      <workItem from="1683581799659" duration="635000" />
+      <workItem from="1683590034785" duration="425000" />
+      <workItem from="1683590499088" duration="2382000" />
+      <workItem from="1683605283371" duration="332000" />
+      <workItem from="1683605636881" duration="4775000" />
+      <workItem from="1683613101844" duration="274000" />
+      <workItem from="1683619414211" duration="2348000" />
+      <workItem from="1683667333369" duration="1403000" />
+      <workItem from="1683677250547" duration="1102000" />
+      <workItem from="1683693400177" duration="12622000" />
+      <workItem from="1683762134012" duration="189000" />
+      <workItem from="1685923645767" duration="1803000" />
+      <workItem from="1686528487601" duration="70000" />
+      <workItem from="1686529299384" duration="39000" />
+    </task>
+    <task id="LOCAL-00001" summary="0427 수업">
+      <created>1682577963199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682577963199</updated>
+    </task>
+    <task id="LOCAL-00002" summary="0428 수업">
+      <created>1682640763017</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682640763018</updated>
+    </task>
+    <task id="LOCAL-00003" summary="0428 수업">
+      <created>1682665641203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682665641203</updated>
+    </task>
+    <task id="LOCAL-00004" summary="0502 수업">
+      <created>1682986053581</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682986053581</updated>
+    </task>
+    <task id="LOCAL-00005" summary="0502 수업">
+      <created>1683004237951</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683004237951</updated>
+    </task>
+    <task id="LOCAL-00006" summary="0502 수업">
+      <created>1683016723969</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683016723969</updated>
+    </task>
+    <task id="LOCAL-00007" summary="0508 수업">
+      <created>1683503307425</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683503307425</updated>
+    </task>
+    <task id="LOCAL-00008" summary="0508 수업">
+      <created>1683535825719</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683535825719</updated>
+    </task>
+    <task id="LOCAL-00009" summary="0509 수업">
+      <created>1683612295583</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683612295583</updated>
+    </task>
+    <task id="LOCAL-00010" summary="0509 수업">
+      <created>1683613345005</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683613345005</updated>
+    </task>
+    <task id="LOCAL-00011" summary="0510 수업">
+      <created>1683677397277</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683677397277</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="0427 수업" />
+    <MESSAGE value="0428 수업" />
+    <MESSAGE value="0502 수업" />
+    <MESSAGE value="0508 수업" />
+    <MESSAGE value="0509 수업" />
+    <MESSAGE value="0510 수업" />
+    <option name="LAST_COMMIT_MESSAGE" value="0510 수업" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

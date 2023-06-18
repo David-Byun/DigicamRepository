@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kbstar.mapper.MarkerDescMapper">
+    <select id="selectall" resultType="MarkerDesc">
+        SELECT * FROM MARKERDESC
+    </select>
+    <insert id="insert" parameterType="MarkerDesc">
+        INSERT INTO MARKERDESC (id, marker_id, item, price, imgname) VALUES (markerdesc_seq.NEXTVAL, #{markerId}, #{item}, #{price}, #{imgname})
+    </insert>
+    <select id="select" parameterType="Integer" resultType="MarkerDesc">
+        SELECT * FROM MARKERDESC WHERE id = #{id}
+    </select>
+    <select id="getMarkerDesc" parameterType="Integer" resultType="MarkerDesc">
+        SELECT * FROM MARKERDESC WHERE marker_id = #{id}
+    </select>
+    <delete id="delete" parameterType="Integer">
+        DELETE FROM MARKERDESC WHERE id = #{id}
+    </delete>
+    <update id="update" parameterType="MarkerDesc">
+        UPDATE MARKERDESC
+        SET marker_id = #{markerId},
+            item = #{item},
+            price = #{price},
+            imgname = #{imgname}
+        WHERE id=#{id}
+    </update>
+</mapper>
