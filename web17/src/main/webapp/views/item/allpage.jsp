@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
+<style>
+    .small_img {
+        width:80px;
+    }
+</style>
+
+<%--데이터를 가져올때 해당 양만 가져와야 함--%>
+
+<div class="col-sm-8 text-left">
+    <div class="row content">
+        <div class="col-sm-6 text-left">
+            <h1>Item All Page</h1>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>IMG</th>
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th>PRICE</th>
+                    <th>REGDATE</th>
+                </tr>
+                </thead>
+                <tbody>
+                <c:forEach var="obj" items="${cpage.getList()}">
+                    <tr>
+                        <td><img class="small_img" src="/uimg/${obj.imgname}" /></td>
+                        <td><a href="/item/get?id=${obj.id}">${obj.id}</a></td>
+                        <td>${obj.name}</td>
+                        <td><fmt:formatNumber value="${obj.price}" pattern="#,###,###원"/></td>
+                        <td><fmt:formatDate value="${obj.rdate}" pattern="yyyy-MM-dd hh:mm:ss"/></td>
+                    </tr>
+                </c:forEach>
+                </tbody>
+            </table>
+            <!-- pagination start -->
+            <jsp:include page="../page.jsp" />
+            <!-- pagination end -->
+        </div>
+    </div>
+</div>

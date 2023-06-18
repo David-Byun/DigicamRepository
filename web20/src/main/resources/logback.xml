@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<property name="LOGS_DIR" value="/Users/david/Digicam_Spring(0421)/log" />
+<!--    리눅스일 경우 사용-->
+<!--    <property name="LOGS_DIR" value="/root/logs" />-->
+    <!-- 아래 디렉토리에 로그 찍겠다 -->
+    <!-- 레이아웃에 근거해서 실행 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>[%d{MM-dd HH:mm:ss}:%-3relative][%thread] %-5level %logger{36} - %msg%n</Pattern>
+        </layout>
+    </appender>
+
+    <!-- 파일 경로 및 설정 -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOGS_DIR}/logback.log</file>
+        <encoder>
+            <pattern>[%d{MM-dd HH:mm:ss}:%-3relative][%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOGS_DIR}/logback.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>5MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- 레이아웃에 근거해서 실행 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>[%d{yyyy-MM-dd HH:mm:ss}:%-3relative][%thread] %-5level %logger{36} - %msg%n</Pattern>
+        </layout>
+    </appender>
+
+    <!-- 파일 경로 및 설정 -->
+    <appender name="FILE2" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 아래 폴더에 로그 찍겠다 -->
+        <file>${LOGS_DIR}/cartinfo.log</file>
+        <encoder>
+            <!-- 이런 형식으로 로그를 찍겠다 -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss}, %msg%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOGS_DIR}/cartinfo.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>5MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <!-- 30시간 -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <!--
+        고객 서비스 시에는 ERROR, 테스트시에는 INFO 개발시에 INFO 레벨로 갈지 ERROR 갈지 확인
+        개발시에는 debug로 찍음
+        서비스할때는 level="ERROR" 로 설정하면, 화면에 출력되어 지는 것을 제어할 수 있다.
+    -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+    <!-- org.springframework.web 아래 내용이 실행될 때 아래 내용들을 파일과 STDOUT로 찍을거야 -->
+    <logger name="org.springframework.web" level="DEBUG">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
+    </logger>
+    <!-- 아래 클래스에서 발생되는 행위가 있으면 아래 폴더에 조정하겠다 -->
+    <logger name="com.kbstar.controller.ItemController" level="INFO">
+        <appender-ref ref="FILE2" />
+    </logger>
+
+    <logger name="jdbc" level="OFF" />
+	<logger name="jdbc.sqlonly" level="INFO" />
+	<logger name="jdbc.sqltiming" level="DEBUG" />
+	<logger name="jdbc.audit" level="OFF" />
+	<logger name="jdbc.resultset" level="DEBUG" />
+	<logger name="jdbc.resultsettable" level="INFO" />
+	<logger name="jdbc.connection" level="OFF" />
+
+    <!-- INFO(trace > debug > info > warn > error)  -->
+</configuration>
